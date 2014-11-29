@@ -12,7 +12,7 @@ def text(text = raw_input('Entrez le texte sans couleur :')):
     
 def color(text = raw_input('Entrez le texte à mettre en couleur :'),color = raw_input('Entrez la couleur souhaitée :')):
     JSON = ''
-    inter = [',','extra:[{','text:',text,',','color:',color,'}]']
+    inter = [',','extra:[{','text:',text,',','color:',color,'}]}']
     for fin in inter:
         JSON = JSON + fin
     print JSON
