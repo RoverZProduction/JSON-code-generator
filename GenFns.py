@@ -3,6 +3,8 @@
 
 #Programme qui définit les fonctions utilisés par le script Gen.py
 
+from Tkinter import *
+
 def text(text):
     JSON = ''
     inter = ['{','text:','"',text,'"']              #Fonction qui transforme une simple phrase en format JSON
