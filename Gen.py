@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 #-*- coding:Utf-8 -*-
 
-#Programme permettant la transformation d'un texte normal en un texte en JSON.
+#Programme permettant la transformation d'un texte normal en un texte en JSON. test
 
-from Genfns import *
+from GenFns import *
 from time import *
 
 withoutColor = text(text = raw_input('Entrez le texte sans couleur :'))
@@ -26,3 +26,4 @@ while 1:
             withColor = color(text = raw_input('Entrez le texte à mettre en couleur :'),color = raw_input('Entrez la couleur souhaitée :'))
     elif putColor == 'O':
         withColor = withColor + ',' + color(text = raw_input('Entrez le texte à mettre en couleur :'),color = raw_input('Entrez la couleur souhaitée :'))
+sleep(120)       
